@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Quicksand:wght@400;700&display=swap');
+        body {
+            background: rgb(255, 244, 245);
+            font-family: 'Quicksand', Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(179, 109, 125);
+            margin: 0;
+        }
+        h1 {
+            text-align: center;
+            color: rgb(179, 109, 125);
+            font-family: 'Fredoka One', cursive;
+            font-size: 2.2rem;
+            margin-top: 32px;
+            letter-spacing: 1px;
+        }
+        h2 {
+            text-align: center;
+            font-family: 'Quicksand', monospace;
+            color: rgb(179, 109, 125);
+            font-size: 1.4rem;
+            margin-bottom: 0;
+        }
+        .profile-container {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 24px;
+        }
+        .profile-img {
+            width: 160px;
+            height:auto
+            object-fit: cover;
+           
+        }
+        .bubble {
+            background: #fff;
+            border-radius: 22px 22px 22px 8px;
+            box-shadow: 0 2px 8px #eec1d9;
+            padding: 18px 22px;
+            max-width: 1000px;
+            max-height: 500px;
+            font-size: 22px;
+            color: rgb(179, 109, 125);
+            font-family: 'Quicksand', monospace;
+        }
+        .gif-img {
+            width: 90px;
+            margin-top: 10px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px #eec1d9;
+        }
+        @media (max-width: 700px) {
+            .profile-container {
+                flex-direction: column;
+                align-items: center;
+                gap: 0;
+            }
+        }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+</style>
+</head>
+<body>
+
+    <h1 >About Me !</h1>
+    <h2>My name is <span style="color:#ff7eb9">Khaura Azarine Hary Putri</span></h2>
+
+    <div class="profile-container">
+        <img src="My Self.jpg" alt="Khaura's Photo" class="profile-img">
+        <div class="bubble">
+            <b>Hi, you can call me <span style="color:#fc6cb2">Khaura</span>!</b> <br><br>
+            <ul style="list-style: none; padding-left: 0; font-size: 22px;">
+                <li>🎂 <b>17 years old</b></li>
+                <li>🌏 From <b>Indonesia</b></li>
+                <li>🎬 Hobbies: <b>Watching Movies</b>, ✈️ <b>Travelling</b>, 🍜 <b>Eating</b></li>
+                <li>🎮 Favorite Game: <b>Roblox</b></li>
+                <li>🗣️ Love to chat and make new friends!</li>
+            </ul>
+            <hr style="border: none; border-top: 2px dashed #fc6cb2; margin: 12px 0;">
+            <div style="font-size:20px;">
+                📚 Currently studying <b>Visual Communication Design</b> at <b>SMKN 1 Kota Tangerang</b>.<br>
+                🎓 My dream is to continue at <b>Multimedia Nusantara University</b> and become a <b>UI/UX Designer</b>.<br>
+            </div>
+            <div style="margin-top: 16px; font-size:18px; color:#fc6cb2;">
+                Thank you for visiting my page! <span style="font-size:22px;">💖</span>
+            </div>
+            <img src="giphy.gif" alt="GIF Image" class="gif-img">
+        </div>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
